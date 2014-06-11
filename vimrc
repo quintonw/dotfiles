@@ -7,12 +7,14 @@ filetype off                   " required!
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
+" let Vundle manage Vundle
 " required! 
 Bundle 'gmarik/vundle'
 
 " original repos on github
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails.git'
+Bundle 'tpope/vim-surround.git'
 " vim-scripts repos
 Bundle 'matchit.zip'
 
